@@ -1,6 +1,6 @@
 # Data Science Projects
 
-This repository contains four distinct data science projects showcasing various methodologies and their applications in analysis and prediction tasks. Below is a description of each project along with details on their outputs.
+This repository contains five distinct data science projects showcasing various methodologies and their applications in analysis and prediction tasks. Below is a description of each project along with details on their outputs.
 
 ---
 
@@ -40,7 +40,18 @@ Identifies an Auto-Regressive with eXogenous input (ARX) model for a dryer datas
 
 ---
 
-## 4. Neural Network for XOR Problem
+## 4. Wavelet Transform Analysis
+### Description:
+Applies discrete wavelet transform (DWT) to a noisy sinusoidal signal using the Daubechies wavelet (`db4`). The signal is decomposed into approximation and detail coefficients across multiple levels, and the signal is reconstructed using varying subsets of coefficients.
+
+### Outputs:
+- Original noisy signal plot.
+- Reconstructed signal plots using only approximation coefficients and a combination of all coefficients.
+- Approximation reconstructions at levels 4 and 5, showcasing signal smoothing and noise reduction.
+
+---
+
+## 5. Neural Network for XOR Problem
 ### Description:
 Implements solutions for the XOR problem using:
 - Linear Perceptron (Least Squares).
@@ -58,6 +69,7 @@ Implements solutions for the XOR problem using:
 - `SVD.m`: Code for SVD and PCA analysis.
 - `ROC_Curve.m`: Code for ROC curve analysis.
 - `ARX_model.m`: Code for ARX system identification.
+- `Wavelet.m`: Code for wavelet transform analysis.
 - `NN_XOR.py`: Documented code for solving the XOR problem using neural networks.
 
 ---
